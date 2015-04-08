@@ -1,0 +1,36 @@
+<ng-include src="'js/view/header.html'" ></ng-include>
+  <!-- login -->
+  <div class="row">
+	<div id="signup" style="background:#48cfae; width:100%; height:500px;">
+    	<div class="row">
+        <div class="col-md-4">
+        </div>
+   			<div class="col-md-4">
+            	<div class="col-md-10">
+   				<div class="jumbotron" style="margin:30% 0 0 0%; ">
+          		<form>
+              	<div class="row">
+                  <div class="col-md-12">
+                  	  <div class="row">
+                      <center><h2>Sign up</h2></center>
+                      <center><div class="form-group">
+                          <input type="text" id="email" class="form-control" placeholder="Enter email" ng-model="email" /></br>
+                          <input type="password" id="password" class="form-control" placeholder="Password" ng-model="password" /></br>
+                          <button class="btn btn-warning btn-block" ng-click="create()">Create account!</button>
+                      </div></center>
+                      </div>
+                  </div>
+              	</div>
+          		</form>
+          		</div>
+                </div>
+      		</div>
+     	 </div>
+      </div>
+    </div>
+   
+    <div>
+          Welcome: {{email}}
+    </div>
+
+
