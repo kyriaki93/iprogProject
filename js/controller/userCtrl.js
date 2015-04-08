@@ -14,9 +14,9 @@ var users = angular.module('userCtrl', []);
 				password : $scope.password
 		 		}, function(error, userData) {
 				if (error) {
-			  		alert("Error creating user:"+ error);
+			  		document.getElementById("state").innerHTML = ("Error creating user:"+ error);
 				} else {
-			  		alert("You have successfully created an account!");
+			  		document.getElementById("state").innerHTML = ("You have successfully created an account!");
 				}
 			});
 		}
@@ -29,15 +29,16 @@ var users = angular.module('userCtrl', []);
   			password : $scope.password
 			}, function(error, authData) {
   			if (error) {
-   		    	alert("Login Failed!", error);
+   		    	document.getElementById("state").innerHTML = ("Login Failed!", error);
   			} else {
-    			alert("Yay "+ authData.password.email);
+    			document.getElementById("state").innerHTML = ("Yay "+ authData.password.email);
   			}
 			
 		});
 		}
 		
 		$scope.logout = function(){
+			document.getElementById("state").innerHTML =("Loged out")
 			authClient.logout();
 		}
 		
