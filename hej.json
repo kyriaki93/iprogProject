@@ -1,0 +1,36 @@
+{
+    "Books": {
+   
+         "1": {
+            "titel": "Samlade dikter 1943-1997",
+            "forfattare": "Werner Aspenström",
+            "isbn": 100141752,
+            "förlag": "Albert Bonniers Förlag",
+            "sidor": 846,
+            "vikt": 990,
+            "utgiven": "2014-12-01",
+            "pris": 199,
+            "genre": "Poesi",
+            "lager": 10
+
+         },
+  
+         "2": {
+            "titel": "Samlade dikter 1943-1997",
+            "forfattare": "Werner Aspenström",
+            "isbn": 100141752,
+            "förlag": "Albert Bonniers Förlag",
+            "sidor": 846,
+            "vikt": 990,
+            "utgiven": "2014-12-01",
+            "pris": 199,
+            "genre": "Poesi",
+            "lager": 10
+         }
+      
+    }
+  }
+
+
+
+
