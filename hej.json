@@ -2,36 +2,122 @@
     "Books": {
    
          "1": {
-            "titel": "Samlade dikter 1943-1997",
-            "forfattare": "Werner Aspenström",
-            "isbn": 100141752,
-            "förlag": "Albert Bonniers Förlag",
-            "sidor": 846,
-            "vikt": 990,
-            "utgiven": "2014-12-01",
-            "pris": 199,
-            "genre": "Poesi",
-            "lager": 10
-
+            "titel": "Samlade dikter 1943-1997","forfattare": "Werner Aspenström", "isbn": 100141752,"förlag": "Albert Bonniers Förlag", "sidor": 846, "vikt": 990, "utgiven": "2014-12-01", "pris": 199, "genre": "Poesi", "lager": 10
          },
   
          "2": {
-            "titel": "Samlade dikter 1943-1997",
-            "forfattare": "Werner Aspenström",
-            "isbn": 100141752,
-            "förlag": "Albert Bonniers Förlag",
-            "sidor": 846,
-            "vikt": 990,
-            "utgiven": "2014-12-01",
-            "pris": 199,
-            "genre": "Poesi",
-            "lager": 10
-         }
+         	"titel": "Märkta för livet","författare": "Emelie Schepp","isbn": 146228578,"förlag": "Wahlström Widstrand","sidor": 339,"vikt": 625,"utgiven": "2015-01-01","pris": 60,"genre": "Thrillers","lager": 90
+         },
+         
+         "3": {
+            "titel": "Stalker","författare": "Lars Kepler","isbn": 100136741,"förlag": "Albert Bonniers Förlag","sidor": 602,"vikt": 740,"utgiven": "2014-10-01","pris": 70,"genre": "Deckare","lager": 35
+         },
+  
+         "4": {
+            "titel": "Mitt krig mot Putin : den sanna historien om stora pengar, mord och en mans kamp för rättvisa","författare": "Bill Browder","isbn": 100139711,"förlag": "Albert Bonniers Förlag","sidor": 381,"vikt": 573,"utgiven": "2015-02-01","pris": 179,"genre": "Biografier & memoarer","lager": 40
+         },
+         
+         "5": {
+            "titel": "Fragment","författare": "Lars Norén","isbn": 100142827,"förlag": "Albert Bonniers Förlag","sidor": 430,"vikt": 650,"utgiven": "2015-01-01","pris": 179,"genre": "Dramatik","lager": 63
+         },
+  
+         "6": {
+            "titel": "Om du vågar","författare": "Megan Abbott","isbn": 187301377,"förlag": "Bokfabriken","sidor": 292,"vikt": 554,"utgiven": "2015-03-01","pris": 182,"genre": "Deckare","lager": 35
+         },
+         "7": {
+			"titel": "Heldenplatz","författare": "Thomas Bernhard","isbn": 186307387,"förlag": "Bokförlaget Tranan","sidor": 146,"vikt": 231,"utgiven": "2011-04-01","pris": 69,"genre": "Dramatik","lager": 200
+         },
+  
+         "8": {
+            "titel": "Oceanen vid vägens slut: en roman","författare": "Neil Gaiman","isbn": 163878374,"förlag": "Bonnier Carlsen","sidor": 218,"vikt": 290,"utgiven": "2014-05-01","pris": 99,"genre": "Fantasy","lager": 23
+		 },
+         
+         "9": {
+            "titel": "Den tredje passageraren","författare": "Tony Johansson","isbn": 187393143,"förlag": "Celanders Förlag","sidor": 261,"vikt": 325,"utgiven": "2014-09-01","pris": 196,"genre": "Thrillers","lager": 33
+		 },
+  
+         "10": {
+			"titel": "Stevens: Poems","författare": "Wallace Stevens","isbn": 679429111,"förlag": "Everyman\'s library","sidor": 256,"vikt": 231,"utgiven": "1993-11-01","pris": 149,"genre": "Poesi","lager": 5
+         },
+         "11": {
+			"titel": "Romeo and Juliet","författare": "William Shakespeare","isbn": 486275574,"förlag": "Dover Publications Inc.","sidor": 96,"vikt": 91,"utgiven": "1993-05-01","pris": 70,"genre": "Dramatik","lager": 50
+         },
+  
+         "12": {
+			"titel": "Från galler till glädje : En livsresa genom 1352 dagar","författare": "Karin Volo","isbn": 187391576,"förlag": "Ekerlids","sidor": 301,"vikt": 546,"utgiven": "2015-03-01","pris": 190,"genre": "Biografier & memoarer","lager": 150
+         },
+         
+         "13": {
+			"titel": "Alice i Zombielandet","författare": "Gena Showalter","isbn": 164077981,"förlag": "Förlaget Harlequin","sidor": 427,"vikt": 366,"utgiven": "2013-05-01","pris": 49,"genre": "Fantasy","lager": 72
+         },
+  
+         "14": {
+			"titel": "Trogen hustru sökes","författare": "Robert Goolrick","isbn": 186297916,"förlag": "Historiska Media","sidor": 384,"vikt": 305,"utgiven": "2014-08-01","pris": 129,"genre": "Thrillers","lager": 150
+         },
+         "15": {
+			"titel": "Liv efter liv","författare": "Kate Atkinson","isbn": 187783234,"förlag": "Massolit Förlag","sidor": 543,"vikt": 806,"utgiven": "2015-02-01","pris": 172,"genre": "Modern & samtida skönlitteratur","lager": 15
+         },
+  
+         "16": {
+			"titel": "Det enkla och det ensamma","författare": "Asta Olivia Nordenhof","isbn": 176450703,"förlag": "Modernista","sidor": 54,"vikt": 162,"utgiven": "2015-01-01","pris": 149,"genre": "Poesi","lager": 22
+		 },
+         
+         "17": {
+			"titel": "Faust","författare": "Johann Wolfgang von Goethe","isbn": 127078154,"förlag": "Natur Kultur Allmänlitteratur","sidor": 313,"vikt": 292,"utgiven": "1999-11-01","pris": 40,"genre": "Dramatik","lager": 120
+		 },
+  
+         "18": {
+			"titel": "Hamlet","författare": "William Shakespeare","isbn": 170379673,"förlag": "Ordfront Förlag","sidor": 139,"vikt": 79,"utgiven": "2003-04-01","pris": 45,"genre": "Dramatik","lager": 150
+         },
+         "19": {
+			"titel": "The Miniaturist","författare": "Jessie Burton","isbn": 447250937,"förlag": "Picador","sidor": 400,"vikt": 306,"utgiven": "2015-01-01","pris": 100,"genre": "Modern & samtida skönlitteratur","lager": 60
+         },
+  
+         "20": {
+			"titel": "The fever","författare": "Megan Abbott","isbn": 447235910,"förlag": "Picador","sidor": 256,"vikt": 402,"utgiven": "2014-06-01","pris": 165,"genre": "Thrillers","lager": 5
+         },
+         
+         "21": {
+			"titel": "Brudkistan","författare": "Unni Lundell","isbn": 164204455,"förlag": "Piratförlaget","sidor": 443,"vikt": 735,"utgiven": "2015-03-01","pris": 179,"genre": "Deckare","lager": 70
+         },
+  
+         "22": {
+			"titel": "Freddie Mercury : den definitiva biografin","författare": "Lesley-Ann Jones","isbn": 186969844,"förlag": "Pocketförlaget","sidor": 411,"vikt": 259,"utgiven": "2013-01-01","pris": 39,"genre": "Biografier & memoarer","lager": 45
+         },
+         "23": {
+			"titel": "Heja, Heja!","författare": "Martina Haag","isbn": 187319150,"förlag": "Pocketförlaget","sidor": 176,"vikt": 106,"utgiven": "2013-02-01","pris": 29,"genre": "Biografier & memoarer","lager": 20
+         },
+  
+         "24": {
+			"titel": "Magikerna","författare": "Lev Grossman","isbn": 186969998,"förlag": "Pocketförlaget","sidor": 436,"vikt": 262,"utgiven": "2013-09-01","pris": 139,"genre": "Fantasy","lager": 134
+		 },
+         
+         "25": {
+			"titel": "Flimmer","författare": "Anne Holt & Even Holt","isbn": 186675998,"förlag": "Pocketförlaget","sidor": 461,"vikt": 254,"utgiven": "2012-02-01","pris": 199,"genre": "Thrillers","lager": 15
+		 },
+  
+         "26": {
+			"titel": "Svikaren","författare": "Harlan coben","isbn": 186969226,"förlag": "Pocketförlaget","sidor": 339,"vikt": 194,"utgiven": "2014-01-01","pris": 99,"genre": "Thrillers","lager": 25
+         },
+         "27": {
+			"titel": "The Martian","författare": "Andy Weir","isbn": 91956141,"förlag": "Random House UK","sidor": 130,"vikt": 272,"utgiven": "2014-09-01","pris": 150,"genre": "Fantasy","lager": 144
+         },
+  
+         "28": {
+			"titel": "Paradisbaden","författare": "Akli Tadjer","isbn": 187648304,"förlag": "Sekwa Förlag","sidor": 271,"vikt": 306,"utgiven": "2015-01-01","pris": 171,"genre": "Modern & samtida skönlitteratur","lager": 40
+		 },
+         
+         "29": {
+			"titel": "Man","författare": "Kim Thúy","isbn": 187648243,"förlag": "Sekwa Förlag","sidor": 155,"vikt": 100,"utgiven": "2014-10-01","pris": 65,"genre": "Modern & samtida skönlitteratur","lager": 100
+		 },
+  
+         "30": {
+			"titel": "Mirakelverkstaden","författare": "Válerie Tong Cuong","isbn": 187648366,"förlag": "Sekwa Förlag","sidor": 260,"vikt": 150,"utgiven": "2015-01-01","pris": 55,"genre": "Modern & samtida skönlitteratur","lager": 40
+         },
       
     }
   }
 
-[{"titel": "Samlade dikter 1943-1997","forfattare": "Werner Aspenström","isbn": 100141752,"förlag": "Albert Bonniers Förlag","sidor": 846,"vikt": 990,"utgiven": "2014-12-01","pris": 199,"genre": "Poesi","lager": 10}, {"titel": "Stalker","författare": "Lars Kepler","isbn": 100136741,"förlag": "Albert Bonniers Förlag","sidor": 602,"vikt": 740,"utgiven": "2014-10-01","pris": 70,"genre": "Deckare","lager": 35}, {"titel": "Mitt krig mot Putin : den sanna historien om stora pengar, mord och en mans kamp för rättvisa","författare": "Bill Browder","isbn": 100139711,"förlag": "Albert Bonniers Förlag","sidor": 381,"vikt": 573,"utgiven": "2015-02-01","pris": 179,"genre": "Biografier & memoarer","lager": 40}, {"titel": "Fragment","författare": "Lars Norén","isbn": 100142827,"förlag": "Albert Bonniers Förlag","sidor": 430,"vikt": 650,"utgiven": "2015-01-01","pris": 179,"genre": "Dramatik","lager": 63}, {"titel": "Om du vågar","författare": "Megan Abbott","isbn": 187301377,"förlag": "Bokfabriken","sidor": 292,"vikt": 554,"utgiven": "2015-03-01","pris": 182,"genre": "Deckare","lager": 35}, {"titel": "Heldenplatz","författare": "Thomas Bernhard","isbn": 186307387,"förlag": "Bokförlaget Tranan","sidor": 146,"vikt": 231,"utgiven": "2011-04-01","pris": 69,"genre": "Dramatik","lager": 200}, {"titel": "Oceanen vid vägens slut: en roman","författare": "Neil Gaiman","isbn": 163878374,"förlag": "Bonnier Carlsen","sidor": 218,"vikt": 290,"utgiven": "2014-05-01","pris": 99,"genre": "Fantasy","lager": 23}, {"titel": "Den tredje passageraren","författare": "Tony Johansson","isbn": 187393143,"förlag": "Celanders Förlag","sidor": 261,"vikt": 325,"utgiven": "2014-09-01","pris": 196,"genre": "Thrillers","lager": 33}, {"titel": "Romeo and Juliet","författare": "William Shakespeare","isbn": 486275574,"förlag": "Dover Publications Inc.","sidor": 96,"vikt": 91,"utgiven": "1993-05-01","pris": 70,"genre": "Dramatik","lager": 50}, {"titel": "Från galler till glädje : En livsresa genom 1352 dagar","författare": "Karin Volo","isbn": 187391576,"förlag": "Ekerlids","sidor": 301,"vikt": 546,"utgiven": "2015-03-01","pris": 190,"genre": "Biografier & memoarer","lager": 150}, {"titel": "Alice i Zombielandet","författare": "Gena Showalter","isbn": 164077981,"förlag": "Förlaget Harlequin","sidor": 427,"vikt": 366,"utgiven": "2013-05-01","pris": 49,"genre": "Fantasy","lager": 72}, {"titel": "Trogen hustru sökes","författare": "Robert Goolrick","isbn": 186297916,"förlag": "Historiska Media","sidor": 384,"vikt": 305,"utgiven": "2014-08-01","pris": 129,"genre": "Thrillers","lager": 150}, {"titel": "Liv efter liv","författare": "Kate Atkinson","isbn": 187783234,"förlag": "Massolit Förlag","sidor": 543,"vikt": 806,"utgiven": "2015-02-01","pris": 172,"genre": "Modern & samtida skönlitteratur","lager": 15}, {"titel": "Det enkla och det ensamma","författare": "Asta Olivia Nordenhof","isbn": 176450703,"förlag": "Modernista","sidor": 54,"vikt": 162,"utgiven": "2015-01-01","pris": 149,"genre": "Poesi","lager": 22}, {"titel": "Faust","författare": "Johann Wolfgang von Goethe","isbn": 127078154,"förlag": "Natur Kultur Allmänlitteratur","sidor": 313,"vikt": 292,"utgiven": "1999-11-01","pris": 40,"genre": "Dramatik","lager": 120}, {"titel": "Hamlet","författare": "William Shakespeare","isbn": 170379673,"förlag": "Ordfront Förlag","sidor": 139,"vikt": 79,"utgiven": "2003-04-01","pris": 45,"genre": "Dramatik","lager": 150}, {"titel": "The Miniaturist","författare": "Jessie Burton","isbn": 447250937,"förlag": "Picador","sidor": 400,"vikt": 306,"utgiven": "2015-01-01","pris": 100,"genre": "Modern & samtida skönlitteratur","lager": 60}, {"titel": "The fever","författare": "Megan Abbott","isbn": 447235910,"förlag": "Picador","sidor": 256,"vikt": 402,"utgiven": "2014-06-01","pris": 165,"genre": "Thrillers","lager": 5}, {"titel": "Brudkistan","författare": "Unni Lundell","isbn": 164204455,"förlag": "Piratförlaget","sidor": 443,"vikt": 735,"utgiven": "2015-03-01","pris": 179,"genre": "Deckare","lager": 70}, {"titel": "Freddie Mercury : den definitiva biografin","författare": "Lesley-Ann Jones","isbn": 186969844,"förlag": "Pocketförlaget","sidor": 411,"vikt": 259,"utgiven": "2013-01-01","pris": 39,"genre": "Biografier & memoarer","lager": 45}, {"titel": "Heja, Heja!","författare": "Martina Haag","isbn": 187319150,"förlag": "Pocketförlaget","sidor": 176,"vikt": 106,"utgiven": "2013-02-01","pris": 29,"genre": "Biografier & memoarer","lager": 20}, {"titel": "Magikerna","författare": "Lev Grossman","isbn": 186969998,"förlag": "Pocketförlaget","sidor": 436,"vikt": 262,"utgiven": "2013-09-01","pris": 139,"genre": "Fantasy","lager": 134}, {"titel": "Flimmer","författare": "Anne Holt & Even Holt","isbn": 186675998,"förlag": "Pocketförlaget","sidor": 461,"vikt": 254,"utgiven": "2012-02-01","pris": 199,"genre": "Thrillers","lager": 15}, {"titel": "Svikaren","författare": "Harlan coben","isbn": 186969226,"förlag": "Pocketförlaget","sidor": 339,"vikt": 194,"utgiven": "2014-01-01","pris": 99,"genre": "Thrillers","lager": 25}, {"titel": "The Martian","författare": "Andy Weir","isbn": 91956141,"förlag": "Random House UK","sidor": 130,"vikt": 272,"utgiven": "2014-09-01","pris": 150,"genre": "Fantasy","lager": 144}, {"titel": "Paradisbaden","författare": "Akli Tadjer","isbn": 187648304,"förlag": "Sekwa Förlag","sidor": 271,"vikt": 306,"utgiven": "2015-01-01","pris": 171,"genre": "Modern & samtida skönlitteratur","lager": 40}, {"titel": "Man","författare": "Kim Thúy","isbn": 187648243,"förlag": "Sekwa Förlag","sidor": 155,"vikt": 100,"utgiven": "2014-10-01","pris": 65,"genre": "Modern & samtida skönlitteratur","lager": 100}, {"titel": "Mirakelverkstaden","författare": "Válerie Tong Cuong","isbn": 187648366,"förlag": "Sekwa Förlag","sidor": 260,"vikt": 150,"utgiven": "2015-01-01","pris": 55,"genre": "Modern & samtida skönlitteratur","lager": 40}, {"titel": "Stevens: Poems","författare": "Wallace Stevens","isbn": 679429111,"förlag": "Everyman\'s library","sidor": 256,"vikt": 231,"utgiven": "1993-11-01","pris": 149,"genre": "Poesi","lager": 5}, {"titel": "Märkta för livet","författare": "Emelie Schepp","isbn": 146228578,"förlag": "Wahlström Widstrand","sidor": 339,"vikt": 625,"utgiven": "2015-01-01","pris": 60,"genre": "Thrillers","lager": 90}]
 
 
 
