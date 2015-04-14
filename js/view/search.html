@@ -1,19 +1,22 @@
 <ng-include src="'js/view/header.html'" ></ng-include>
   <!-- search -->
 
-  <div class="row">
 
-  <script>
-    var ref = new Firebase("https://dazzling-torch-7020.firebaseio.com/Books");
 
-    ref.on("value", function(snapshot) {
-    console.log(snapshot.val());
-    }, function (errorObject) {
-    console.log("The read failed: " + errorObject.code);
-    });
+  
+<script>
+var ref = new Firebase("https://dazzling-torch-7020.firebaseio.com/Books/1");
+// Attach an asynchronous callback to read the data at our posts reference
+ref.on("value", function(snapshot) {
+  console.log(snapshot.val());
+}, function (errorObject) {
+  console.log("The read failed: " + errorObject.code);
+});
+  
 </script>
-	
-  </div>
+
+
+
    
 
 

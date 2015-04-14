@@ -17,6 +17,10 @@ app.config(['$routeProvider',
 			.when('/home', {
 				templateUrl: 'js/view/home.html',
 				
+			})
+			.when('/search', {
+			templateUrl: 'js/view/search.html',
+				
 			});
 		}
 		]);
