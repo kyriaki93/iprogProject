@@ -1,8 +1,84 @@
-<ng-include src="'js/view/header.html'" ></ng-include>
-  <!-- search -->
+<ng-include src="'js/view/loginheader.html'" ></ng-include>
+
+<!-- CSS styles for search box -  START -->
+<style type="text/css">
+.input-group {
+	padding-left: 5px;
+	padding-top: 20px;
+}
+#search {
+	float:left; 
+	background-color: #48cfae;
+	height:400px;
+	width: 64%;
+	border-style: solid;
+	border-color: #ffffff;
+	border-width:thin;
+	border-top: none;
+	border-bottom:none;
+}
+
+#searchBar{
+	height:100px;
+	background-color: #48cfae;
+	border-bottom-style: solid ;
+	border-bottom-color:  #ffffff;
+	border-width:thin;
+
+}
+
+#RightNavBar {
+	float:left; 
+	padding:5px;
+	background-color: #48cfae;
+	height:400px;
+	width: 18%;
+}
+#LeftNavBar {
+	float:left; 
+	padding:5px;
+	background-color:#48cfae;
+	height:400px;
+	width: 18%;
+}
+
+p {font-size:30px;}
+</style>
+<!-- CSS styles for search box -  END -->
+
+<!-- search -->
+<div class="row">
+
+<!-- searchBar -->
 
 
-<div id="hej">
+<div style="position:relative">
+    <div id="RightNavBar">
+    
+	CATEGORIES
+    
+    </div>
+    <div id="search">
+		<div id="searchBar">
+			<div class="input-group">
+            	<input id="inputSearch" type="text" class="form-control" placeholder="Enter keywords">
+            	<span class="input-group-btn">
+            	<button id="searchWord" class="btn btn-default" type="button">search</button>
+            	</span></p>
+			</div>
+		</div>
+		<div id="searchResults">
+			Searched books
+		</div>
+	</div>
+    </div>
+    
+    <div id="LeftNavBar">
+    TOPLISTS
+    </div>
+</div>
+
+
 </div>
   
 <script>

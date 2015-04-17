@@ -21,10 +21,37 @@ app.config(['$routeProvider',
 			.when('/search', {
 			templateUrl: 'js/view/search.html',
 				
+			})
+			.when('/logout', {
+			templateUrl: 'js/view/home.html',
+				
+			})
+			.when('/user', {
+			templateUrl: 'js/view/user.html',
+				
+			})
+			.when('/cart', {
+			templateUrl: 'js/view/cart.html',
+				
+			})
+			.when('/library', {
+			templateUrl: 'js/view/library.html',
+				
+			})
+			.when('/signout', {
+			templateUrl: 'js/view/home.html',
+			})
+			.when('/current', {
+			templateUrl: 'js/view/startpage.html',
+			
 			});
+
 		}
 		]);
+
+
 		
+
 
 		
 		
