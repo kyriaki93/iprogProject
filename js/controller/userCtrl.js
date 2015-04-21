@@ -1,12 +1,11 @@
-//user controller
+
+//Login
 var users = angular.module('userCtrl', []);
 
-	users.controller('userCtrl', function ($scope){
-		$scope.email = "";
-		$scope.password = "";
-		
-		var ref = new Firebase("https://dazzling-torch-7020.firebaseio.com");
+users.controller('userCtrl', ['$scope', '$routeParams','$location', 
+function($scope, $routeParams, $location) {
 
+	var ref = new Firebase("https://dazzling-torch-7020.firebaseio.com");
 		//Register button
 		$scope.create = function(){
 			ref.createUser({
@@ -14,28 +13,19 @@ var users = angular.module('userCtrl', []);
 				password : $scope.password
 		 		}, function(error, userData) {
 				if (error) {
-			  		document.getElementById("state").innerHTML = ("Error creating user:"+ error);
+			  		$("#state").html("Error creating user:", error);
 				} else {
-			  		document.getElementById("state").innerHTML = ("You have successfully created an account!");
+			  		$("#state").html("You have successfully created an account!");
+
 			  		
 				}
 			});
 		}
 		
 		$scope.logout = function(){
-			document.getElementById("state").innerHTML =("Loged out")
+			//document.getElementById("state").innerHTML =("Loged out")
 			authClient.logout();
 		}
-		
-		
-		
-	})
-
-//Login
-users.controller('userCtrl', ['$scope', '$routeParams','$location', 
-function($scope, $routeParams, $location) {
-
-	var ref = new Firebase("https://dazzling-torch-7020.firebaseio.com");
 
 		$scope.submit = function(){
 			ref.authWithPassword({

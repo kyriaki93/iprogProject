@@ -24,6 +24,7 @@ app.config(['$routeProvider',
 			})
 			.when('/logout', {
 			templateUrl: 'js/view/home.html',
+			controller: 'userCtrl'
 				
 			})
 			.when('/user', {
@@ -35,11 +36,7 @@ app.config(['$routeProvider',
 				
 			})
 			.when('/library', {
-			templateUrl: 'js/view/library.html',
-				
-			})
-			.when('/signout', {
-			templateUrl: 'js/view/home.html',
+			templateUrl: 'js/view/library.html',			
 			})
 			.when('/current', {
 			templateUrl: 'js/view/startpage.html',
