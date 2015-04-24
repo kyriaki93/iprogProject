@@ -1,6 +1,6 @@
 <!-- På denna sida ska användaren kunna söka efter böcker, även se topplista, kategorier osv. -->
 
-<ng-include src="'js/view/loginheader.html'" ></ng-include>
+<ng-include src="'js/view/loginheader.html'"></ng-include>
 
 <!-- CSS styles for search box -  START -->
 <style type="text/css">
@@ -60,21 +60,33 @@ p {font-size:30px;}
 	CATEGORIES
     
     </div>
-    <div id="search">
+    
+	
+	<div ng-app="app">
+	<div ng-controller="searchCtrl" id="search">
 		<div id="searchBar">
 			<div class="input-group">
-            	<input id="inputSearch" type="text" class="form-control" placeholder="Enter keywords">
+            	<input ng-model="searchString" id="inputSearch" type="text" class="form-control" placeholder="Enter keywords">
             	<span class="input-group-btn">
-            	<button id="searchWord" class="btn btn-default" type="button">search</button>
+            	<div class="searchButton">
+				<button ng-click="searchBooks(searchString)" id="searchWord" class="btn btn-default" type="button">search</button></div>
             	</span></p>
 			</div>
 		</div>
-		<div id="searchResults">
-			Searched books
+			<div id="searchResults">
+				{{status}}			
+					<li ng-repeat="book in books">
+					<div class="bookresult">
+
+					</div>
+					</li>
+			</div>
 		</div>
-	</div>
     </div>
+	</div>
     
+	
+	
     <div id="LeftNavBar">
     TOPLISTS
     </div>
