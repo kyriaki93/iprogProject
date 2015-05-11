@@ -1,5 +1,5 @@
   <!-- Static header -->
-  <div id="header">
+  <div id="header" ng-controller="headerCtrl">
   	<div class="row">
       <nav class="navbar navbar-default" style="margin:0 0 0 0;">
           <div class="container-fluid">
@@ -9,13 +9,12 @@
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav">
              		
-                      <li><a href="#/home">Home</a></li>
-                      <li><a href="#/library">Library</a></li>
+                      <li><a href="#/library">My Bookshelf</a></li>
                       <li><a href="#/cart">Trade</a></li>
                       <li><a href="#/search">Search</a></li>
                   </ul>
                   <ul class="nav navbar-nav navbar-right">
-                      <li><a href="#/user">User</a></li>
+                      <li><a ng-model="user" href="#/user">{{user}}</a></li>
                       <li><a href="#/logout" ng-click="logout()">Sign out</a></li>
                   </ul>
               </div>
