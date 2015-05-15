@@ -5,8 +5,8 @@ dinnerPlannerApp.controller('libraryCtrl',function($scope, $routeParams, $locati
  
 	var user = Dinner.getUser();
 	$scope.BooksISBN = [];		
+
 	$scope.userBooks = function() {
-	
 	
 	/* GET BOOK FROM DATABASE */
 	var ref = new Firebase("https://dazzling-torch-7020.firebaseio.com/library");
@@ -25,8 +25,6 @@ dinnerPlannerApp.controller('libraryCtrl',function($scope, $routeParams, $locati
   			return $scope.BooksISBN;
     }); 
     }
- 
- 	
  
  
  $scope.userBooks();	
@@ -62,10 +60,5 @@ dinnerPlannerApp.controller('libraryCtrl',function($scope, $routeParams, $locati
 	Dinner.tradeList(book);
  };
 
-/* $scope.searchsTradelist = function(book){
- 	$scope.hej = Dinner.searchTradelist(book);
- 	console.log(hej)
- 	};
-*/
 
 });

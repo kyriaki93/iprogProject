@@ -2,6 +2,7 @@
 dinnerPlannerApp.controller('userCtrl', function($scope, $route, $routeParams, $location,Dinner) {
   
   var ref = new Firebase("https://dazzling-torch-7020.firebaseio.com");
+		
 		//log out user
 		$scope.logout = function(){
 			ref.unauth();

@@ -9,6 +9,7 @@ dinnerPlannerApp.controller('signinCtrl', function ($scope,Dinner) {
 		
 		var ref = new Firebase("https://dazzling-torch-7020.firebaseio.com");
 		var refUser = new Firebase("https://dazzling-torch-7020.firebaseio.com/Users");
+		
 		//create account 
 		$scope.create = function(){
 			ref.createUser({
