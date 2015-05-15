@@ -1,55 +1,48 @@
+var dinnerPlannerApp = angular.module('dinnerPlanner', ['firebase','ngRoute']);
 
-var app = angular.module('app',
- ['firebase', 'ngRoute', 'userCtrl']);
-
-app.config(['$routeProvider',
-	function($routeProvider){
-		$routeProvider.when('/', {
-				templateUrl: 'js/view/home.html',
-			}).when('/login', {
-				templateUrl: 'js/view/loginView.html',
+dinnerPlannerApp.config(['$routeProvider',
+  function($routeProvider) {
+    $routeProvider.
+      when('/home', {
+        templateUrl: 'partials/home.html'
+      }).
+      
+      
+      when('/login', {
+				templateUrl: 'partials/loginView.html',
 				controller: 'userCtrl',
-			})
-			.when('/signup', {
-				templateUrl: 'js/view/signup.html',
-				controller: 'userCtrl',
-			})
-			.when('/home', {
-				templateUrl: 'js/view/home.html',
-				
-			})
-			.when('/search', {
-			templateUrl: 'js/view/search.html',
-				
-			})
-			.when('/logout', {
-			templateUrl: 'js/view/home.html',
-			controller: 'userCtrl'
-				
-			})
-			.when('/user', {
-			templateUrl: 'js/view/user.html',
-				
-			})
-			.when('/cart', {
-			templateUrl: 'js/view/cart.html',
-				
-			})
-			.when('/library', {
-			templateUrl: 'js/view/library.html',			
-			})
-			.when('/current', {
-			templateUrl: 'js/view/startpage.html',
+			}).
+      
+      when('/signup', {
+				templateUrl: 'partials/signup.html',
+				controller: 'signinCtrl',
+			}).
 			
-			});
-
-		}
-		]);
-
-
-		
-
-
-		
-		
-		
+	  when('/search', {
+				templateUrl: 'partials/search.html',
+				controller: 'searchCtrl',
+			}).
+	  when('/logout', {
+			templateUrl: 'partials/home.html',
+			controller: 'userCtrl'
+			}).
+	when('/user', {
+			templateUrl: 'partials/contact.html',
+			controller: 'contactCtrl'
+				
+			}).
+	when('/trade', {
+			templateUrl: 'partials/trade.html',
+			controller: 'tradeCtrl'	
+			}).
+	when('/library', {
+			templateUrl: 'partials/library.html',
+			controller: 'libraryCtrl'			
+			}).				
+      otherwise({
+        redirectTo: '/home'
+      });
+  }]);
+  
+         
+  

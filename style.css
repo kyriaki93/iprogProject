@@ -47,4 +47,62 @@
 	margin-top: 15px;
 
 }
-/* Selector */ 
+/* Selector */
+
+
+/* CSS for Search - START */ 
+
+.input-group {
+	padding-left: 5px;
+	padding-top: 20px;
+}
+#search {
+	float:left; 
+	background-color: #3dd0b0;
+	height:400px;
+	width: 100%;
+	border-style: solid;
+	border-color: #ffffff;
+	border-width:thin;
+	border-top: none;
+	border-bottom:none;
+	overflow: scroll;
+	}
+
+.booksRow{
+	height:350px;
+	position:relative;
+	left:10px;
+
+}
+
+.searchedBook{
+	height:320px;
+	width: 200px;
+}
+
+.bookInfo{
+	height:80px;
+	width: 150px;
+	z-index:-1px;
+	position:relative;
+}
+
+
+.bookThumbnail{
+	height:200px;
+	width: 150px;
+	position:relative;
+	
+}
+
+.msgAdd{
+	
+	background-color: #F0F0F0;
+	height:100px;
+	width: 18%;
+	position:fixed;
+	top:52px;
+	z-index:1px;
+	padding:10px;
+}

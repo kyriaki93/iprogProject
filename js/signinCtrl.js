@@ -20,12 +20,11 @@ dinnerPlannerApp.controller('signinCtrl', function ($scope,Dinner) {
 				} else {
 					var newUserRef = refUser.push();
   					newUserRef.set({user:$scope.email, fname:$scope.fname, lname:$scope.lname, number:$scope.number, id:newUserRef.key()});
-  					    $.alert({
-      						title: 'Yay!',
-      						content: 'You have successfully creted an account!',
-      						animation: 'opacity',
-      						confirmButtonClass: 'btn-warning'
-    					});
+    				
+    				title = 'Yay!';
+    				content = 'You have successfully creted an account!';
+
+    				Dinner.alerts(title,content);
 				}
 			});
 		}

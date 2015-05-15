@@ -1,5 +1,5 @@
 
-dinnerPlannerApp.controller('userCtrl', function($scope, $routeParams, $location,Dinner) {
+dinnerPlannerApp.controller('userCtrl', function($scope, $route, $routeParams, $location,Dinner) {
   
   var ref = new Firebase("https://dazzling-torch-7020.firebaseio.com");
 		//log out user
@@ -12,12 +12,11 @@ dinnerPlannerApp.controller('userCtrl', function($scope, $routeParams, $location
   			email    : $scope.email,
   			password : $scope.password
 			}, function(error, authData) {
-  			if (error) {
-   		    	$("#state").html("Login Failed!", error);
+  			if (!error) {
+   		    	window.location = 'http://projekt.clindstrom.se.preview.citynetwork.se/#/library';
+  				
   			} else {
-  				$location.path('/library');
-    			$("#state").html("Yay! Click on the login button again to continue." );
-    			$("#well").html("<h1>Welcome</h1><h2> "+ authData.password.email +"</h2>");
+				$("#state").html("Login Failed!", error);
     			
   			}
 			
