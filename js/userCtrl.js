@@ -3,10 +3,6 @@ dinnerPlannerApp.controller('userCtrl', function($scope, $route, $routeParams, $
   
   var ref = new Firebase("https://dazzling-torch-7020.firebaseio.com");
 		
-		//log out user
-		$scope.logout = function(){
-			ref.unauth();
-		}
 		//login user
 		$scope.submit = function(){
 			ref.authWithPassword({

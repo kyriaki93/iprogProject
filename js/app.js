@@ -24,7 +24,6 @@ dinnerPlannerApp.config(['$routeProvider',
 			}).
 	  when('/logout', {
 			templateUrl: 'partials/home.html',
-			controller: 'userCtrl'
 			}).
 	when('/user', {
 			templateUrl: 'partials/contact.html',
