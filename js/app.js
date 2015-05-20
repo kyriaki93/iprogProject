@@ -37,7 +37,7 @@ dinnerPlannerApp.config(['$routeProvider',
 	when('/library', {
 			templateUrl: 'partials/library.html',
 			controller: 'libraryCtrl'			
-			}).				
+			}).			
       otherwise({
         redirectTo: '/home'
       });
