@@ -3,7 +3,8 @@ dinnerPlannerApp.factory('Dinner',function () {
 
 	this.user = "";
 	var tradingList = [];
-	
+	var list = [];
+
 	
 	//get email from user logged in 
 	this.getUser = function(){
@@ -15,6 +16,23 @@ dinnerPlannerApp.factory('Dinner',function () {
 		else{
   			return 'no user';
 		}
+	}
+	
+	this.test = function(){
+	  var ref = new Firebase("https://dazzling-torch-7020.firebaseio.com/TradingList");
+		  ref.on("child_added", function(snapshot) {
+			  //all the users
+        
+
+  			var newPost = snapshot.val();
+  			//gets info from trading user
+  			var adr = newPost.Address;
+  			var title = newPost.Title;
+			list.push(adr,title);
+        	return list;
+        
+			
+	    });
 	}
 
 	//alert function
@@ -114,10 +132,6 @@ dinnerPlannerApp.factory('Dinner',function () {
   		console.log('YES'+Post.Title +"="+ title +"="+ Post.User +"="+ user);
   	*/	
   		
-  		 
-  		
-	
-	
 	
 	this.removeTradeList = function(title){
 	
