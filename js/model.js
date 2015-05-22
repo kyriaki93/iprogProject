@@ -54,21 +54,6 @@ dinnerPlannerApp.factory('Dinner',function () {
   		return newArr;
 	}
 
-	this.tradeList = function(book, user){
-	
-		var title = book.title;
-		var user = this.getUser();
-		
-		var tradingRef = new Firebase('https://dazzling-torch-7020.firebaseio.com/TradingList');
-		
-		var newTradingRef = tradingRef.push();
-		newTradingRef.set({ 'Title': title, 'User': user, id: newTradingRef.key() });
-
-		alertTitle = 'Yay!';
-		content = 'You have successfully addad the book '+ title +' up for trade!';
-		this.alerts(alertTitle,content);
-				
-  	};	
   	
 /*	this.f = function(x,user){
 		
@@ -133,6 +118,27 @@ dinnerPlannerApp.factory('Dinner',function () {
   	*/	
   		
 	
+	this.tradeList = function(book, user){
+	
+		var title = book.title;
+		var user = this.getUser();
+	
+
+		var ref = new Firebase("https://dazzling-torch-7020.firebaseio.com/Users");
+	    ref.on("child_added", function(snapshot) {
+  		var newPost = snapshot.val();
+		if (newPost.user === user){
+		var tradingRef = new Firebase('https://dazzling-torch-7020.firebaseio.com/TradingList');
+		
+		var newTradingRef = tradingRef.push();
+		newTradingRef.set({ 'Title': title, 'User': user, 'Address': newPost.adr, id: newTradingRef.key() });
+}});
+		alertTitle = 'Yay!';
+		content = 'You have successfully addad the book '+ title +' up for trade!';
+		this.alerts(alertTitle,content);
+			
+  	};	
+  	
 	this.removeTradeList = function(title){
 	
 		
