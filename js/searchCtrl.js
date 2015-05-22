@@ -10,7 +10,7 @@ dinnerPlannerApp.controller('searchCtrl', ['$scope', 'BookQueryService','$timeou
     	  BookQueryService.getBooks(searchWord).then(function(data) {
           $scope.books = data.data.items;
           console.log($scope.books)
-          $scope.chunks = Dinner.chunk($scope.books, 6);
+          $scope.chunks = Dinner.chunk($scope.books, 4);
        	  return $scope.books;
         });
     }};
@@ -40,6 +40,7 @@ dinnerPlannerApp.controller('searchCtrl', ['$scope', 'BookQueryService','$timeou
     text:""
   };
 
+  //Alert message when a book is added
   $scope.showAlert =function(title){
     alertTitle = "Yay";
     content = 'You have now added the book '+ title +' to your bookshelf!';

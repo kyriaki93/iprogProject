@@ -1,0 +1,26 @@
+
+<div class="row">
+  <div class="col-md-12 col-xs-12" >		
+    <div class="row" ng-model="currentLo">
+			<map zoom="6" center="59.32932349999999, 18.068580800000063">
+        <div>  		
+        <div ng-repeat="point in tradingPoints">
+          	<marker animation="DROP" 
+          			icon="{{imageTrade}}" 
+          			title="{{point.Title}}"
+          			position="{{point.Address}}"
+                draggable="true" 
+          			id="7"   >
+          	</marker>  		
+  			</div>
+        <marker ng-model="currentLa" animation="DROP" 
+                title="Min position"
+                position="{{currentLa}}, {{currentLo}}" 
+                 >
+            </marker> 
+      </map>
+
+		  </div>
+	</div>
+</div>
+</div>

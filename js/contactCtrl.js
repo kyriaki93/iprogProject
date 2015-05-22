@@ -20,6 +20,7 @@ dinnerPlannerApp.controller('contactCtrl', function($scope, $routeParams, $locat
   			$scope.number = newPost.number;
   			$scope.fname = newPost.fname;
   			$scope.lname = newPost.lname;
+        $scope.adr = newPost.adr;
   			$scope.id = newPost.id;
   			$scope.$apply();
   	
@@ -34,7 +35,7 @@ dinnerPlannerApp.controller('contactCtrl', function($scope, $routeParams, $locat
 	//when the edit button is pressed it will update following
   $scope.edit = function(){
     window.location.reload();
-		ref.child(""+ $scope.id +"").set({ fname: $scope.fname, lname: $scope.lname, number: $scope.number, user: user, id: $scope.id});
+    ref.child(""+ $scope.id +"").set({ fname: $scope.fname, lname: $scope.lname, number: $scope.number, user: user, id: $scope.id, adr: $scope.adr});
 	}
 
 });

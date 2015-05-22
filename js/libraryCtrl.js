@@ -4,6 +4,7 @@ dinnerPlannerApp.controller('libraryCtrl',function($scope, $routeParams, $locati
  
  
 	var user = Dinner.getUser();
+  
 	$scope.BooksISBN = [];		
 
 	$scope.userBooks = function() {
@@ -29,6 +30,7 @@ dinnerPlannerApp.controller('libraryCtrl',function($scope, $routeParams, $locati
  
  $scope.userBooks();	
  
+  //remove book
  	$scope.removeBook = function(Book, title) {
 	var BookISBN = Book.industryIdentifiers;
 	

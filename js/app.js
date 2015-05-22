@@ -1,4 +1,4 @@
-var dinnerPlannerApp = angular.module('dinnerPlanner', ['firebase','ngRoute']);
+var dinnerPlannerApp = angular.module('dinnerPlanner', ['firebase','ngRoute', 'ngMap']);
 
 dinnerPlannerApp.config(['$routeProvider',
   function($routeProvider) {
