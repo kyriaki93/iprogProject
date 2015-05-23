@@ -2,7 +2,10 @@
 dinnerPlannerApp.controller('userCtrl', function($scope, $route, $routeParams, $location,Dinner) {
   
   var ref = new Firebase("https://dazzling-torch-7020.firebaseio.com");
-		
+		//log out user
+		$scope.logout = function(){
+			ref.unauth();
+		}
 		//login user
 		$scope.submit = function(){
 			ref.authWithPassword({
@@ -13,7 +16,10 @@ dinnerPlannerApp.controller('userCtrl', function($scope, $route, $routeParams, $
    		    	window.location = 'http://projekt.clindstrom.se.preview.citynetwork.se/#/library';
   				
   			} else {
-				$("#state").html("Login Failed!", error);
+				//$("#state").html("Login Failed!", error);
+				title = "Error"
+				content = ""+error+"";
+				Dinner.alerts(title,content);
     			
   			}
 			
